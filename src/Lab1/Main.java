@@ -1,5 +1,6 @@
 package Lab1;
 import CodeChallenge1.CC1;
+import CodeChallenge2.CC2;
 
 public class Main {
 
@@ -33,8 +34,13 @@ public class Main {
         Integer nr2 = new Integer(4);
         cf.AutoBox(nr,nr2);*/
 
-        CC1 fb = new CC1();
-        fb.FizzBuzz();
+/*        CC1 fb = new CC1();
+        fb.FizzBuzz();*/
+
+        CC2 fbq = new CC2();
+        var s = fbq.compute( 154);
+        System.out.println(s);
+
 
         //stringExample();
     }
