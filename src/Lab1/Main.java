@@ -1,6 +1,8 @@
 package Lab1;
 import CodeChallenge1.CC1;
 import CodeChallenge2.CC2;
+import CodeChallenge3.CC3;
+
 
 public class Main {
 
@@ -37,9 +39,12 @@ public class Main {
 /*        CC1 fb = new CC1();
         fb.FizzBuzz();*/
 
-        CC2 fbq = new CC2();
+        /*CC2 fbq = new CC2();
         var s = fbq.compute( 154);
-        System.out.println(s);
+        System.out.println(s);*/
+
+        CC3 pf2 = new CC3();
+        System.out.println(pf2.Pairof3());
 
 
         //stringExample();
