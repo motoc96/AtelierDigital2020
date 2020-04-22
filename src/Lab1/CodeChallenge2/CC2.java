@@ -1,4 +1,4 @@
-package CodeChallenge2;
+package Lab1.CodeChallenge2;
 
 public class CC2 {
 private String result=" ";

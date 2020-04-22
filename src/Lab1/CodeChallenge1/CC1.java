@@ -1,4 +1,4 @@
-package CodeChallenge1;
+package Lab1.CodeChallenge1;
 
 public class CC1 {
 
