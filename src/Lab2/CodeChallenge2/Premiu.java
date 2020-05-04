@@ -2,8 +2,8 @@ package Lab2.CodeChallenge2;
 
 public class Premiu {
 
-    String nume;
-    int an;
+    protected String nume;
+    protected int an;
 
     Premiu(String nume, int an){
         this.nume=nume;

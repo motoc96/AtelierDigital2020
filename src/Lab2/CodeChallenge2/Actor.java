@@ -2,9 +2,9 @@ package Lab2.CodeChallenge2;
 
 public class Actor {
 
-    String nume;
-    Integer varsta;
-    Premiu[] premii;
+    protected String nume;
+    protected Integer varsta;
+    protected Premiu[] premii;
 
     Actor(String nume, Integer varsta, Premiu[] premii){
         this.nume=nume;
