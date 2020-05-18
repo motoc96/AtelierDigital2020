@@ -5,7 +5,7 @@ public class Pair <T extends Shoe> {
     private T second;
 
     public  Pair(T first, T second) throws Exception {
-        if(first.getColor().equals(second.getColor())){
+        if(!first.getColor().equals(second.getColor())){
             throw new Exception("Colors don't match!");
         }
         if(first.getSize()!=second.getSize()){
