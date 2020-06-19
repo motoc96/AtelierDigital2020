@@ -1,14 +1,15 @@
 package lab6.ch1;
 
+import java.util.Arrays;
+import java.util.List;
+
 public class Main {
     public static void main(String[] args) {
-        ExchangeDesk exchangeDesk = new ExchangeDesk();
-        RON ron = new RON(10);
+        List<Integer> list = Arrays.asList(2,7,5,6,4,2,3,1);
+        list = Leader.getLeaders(list);
+        System.out.println(list);
 
-        USD usd = exchangeDesk.convert(ron,USD.class,0.225);
-        System.out.println(usd);
 
-        EUR eur = exchangeDesk.convert(usd,EUR.class,1.1);
-        System.out.println(eur);
+
     }
 }

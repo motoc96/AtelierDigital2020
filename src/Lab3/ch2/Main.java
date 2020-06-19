@@ -2,6 +2,9 @@ package Lab3.ch2;
 
 import java.util.Arrays;
 
+//Implement 2 sorting strategies BubleSort and MergeSort then use the following
+//displaySorted method to apply them
+
 public class Main {
     public static void displaySorted(SortingStrategy strategy, Integer[] arr){
         strategy.sort(arr);
