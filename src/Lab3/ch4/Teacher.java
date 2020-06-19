@@ -4,7 +4,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Teacher implements ObservedSubject {
-
     private List<Observer> observers = new ArrayList<>();
     @Override
     public void register(Observer obj) {
@@ -12,14 +11,17 @@ public class Teacher implements ObservedSubject {
     }
 
     @Override
-    public void unregister(Observer obj) {
-        observers.remove(obj);
+    public void unregister(Observer obj) { observers.remove(obj);
     }
 
     @Override
     public void notifyObservers(String message) {
-        for(Observer observer : observers){
+        for(Observer observer : this.observers){
             observer.update(message);
         }
+    }
+
+    public void teach(String topics){
+        notifyObservers(topics);
     }
 }
