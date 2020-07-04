@@ -3,6 +3,8 @@ package project.strategy;
 import java.util.Random;
 
 //MonsterSlayer - Using Strategy Design Pattern
+//The Strategy pattern (also known as the policy pattern) is a software design pattern that
+//enables an algorithm's behavior to be selected at runtime
 
 public class Main {
     public static void main(String[] args) {
